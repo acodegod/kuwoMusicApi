@@ -46,7 +46,7 @@ app.get('/',(req,res,body)=>{
 })
 
 
-app.listen(3300, 'localhost', () => {
+app.listen(3300, '127.0.0.1', () => {
 
     console.log('running at', 'http://127.0.0.1:3300')
 })
