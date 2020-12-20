@@ -48,5 +48,5 @@ app.get('/',(req,res,body)=>{
 
 app.listen(3300, 'localhost', () => {
 
-    console.log('running at', 'http://localhost:3300')
+    console.log('running at', 'http://127.0.0.1:3300')
 })
